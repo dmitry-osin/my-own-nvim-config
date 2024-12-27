@@ -1,7 +1,7 @@
 return {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
-    dependencies = {"nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons", "MunifTanjim/nui.nvim"},
+    dependencies = {"nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons", "echasnovski/mini.nvim", "MunifTanjim/nui.nvim"},
     config = function()
         vim.api.nvim_set_hl(0, "NormalFloat", {
             bg = "none",
