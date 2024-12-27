@@ -20,8 +20,8 @@ return {
 				window = {
 					documentation = cmp.config.window.bordered({
 						border = 'rounded',
-						max_width = 300,
-						max_height = 100,
+						max_width = 500,
+						max_height = 500,
 						zindex = 50
 					  }),
 					completion = cmp.config.window.bordered()
